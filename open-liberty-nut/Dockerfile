@@ -1,0 +1,18 @@
+FROM openjdk:8-jre-slim
+
+RUN addgroup --gid 1000 nut; \
+    adduser --disabled-password --gecos "" --home "$(pwd)" --ingroup nut --no-create-home --uid 1000 nut
+
+EXPOSE 8080
+
+COPY target/liberty/wlp /app
+
+RUN ls -a /app
+
+RUN chown -R nut:nut /app
+
+USER nut
+
+WORKDIR /app
+
+ENTRYPOINT ["/app/bin/server","run"]

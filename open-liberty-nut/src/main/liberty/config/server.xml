@@ -1,0 +1,9 @@
+<server description="Open Liberty Nut">
+    <featureManager>
+        <feature>jaxrs-2.1</feature>
+    </featureManager>
+
+    <httpEndpoint httpPort="${default.http.port}" httpsPort="${default.https.port}" id="defaultHttpEndpoint" host="*"/>
+
+    <webApplication location="open-libery-nut.war" contextRoot="${app.context.root}"/>
+</server>
