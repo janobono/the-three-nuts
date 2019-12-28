@@ -29,7 +29,7 @@ docker-compose up
 ```
 
 
-## links
+### endpoints
 
 - [open-liberty-nut](http://127.0.0.1:8081/open-liberty-nut/hello)
 - [quarkus-nut](http://127.0.0.1:8082/hello)
