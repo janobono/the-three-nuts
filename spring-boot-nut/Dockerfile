@@ -1,4 +1,4 @@
-FROM openjdk:8-jre-slim
+FROM openjdk:8-jre-alpine
 
 RUN addgroup --gid 1000 nut; \
     adduser --disabled-password --gecos "" --home "$(pwd)" --ingroup nut --no-create-home --uid 1000 nut

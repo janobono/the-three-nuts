@@ -47,10 +47,10 @@ docker image ls
 
 ```
 REPOSITORY                  TAG                 IMAGE ID            CREATED             SIZE
-janobono/spring-boot-nut    latest              b2b9128b0c9b        3 minutes ago       219MB
-janobono/quarkus-nut        latest              6c51d1043742        3 minutes ago       203MB
-janobono/open-liberty-nut   latest              a7436d2df923        4 minutes ago       523MB
-openjdk                     8-jre-slim          bf4f62306d0f        5 weeks ago         184MB
+janobono/spring-boot-nut    latest              621dadce01fe        17 seconds ago      120MB
+janobono/quarkus-nut        latest              daa88b557232        28 seconds ago      104MB
+janobono/open-liberty-nut   latest              4ce1bd5c6372        44 seconds ago      424MB
+openjdk                     8-jre-alpine        f7a292bbb70c        7 months ago        84.9MB
 ```
 
 
@@ -62,14 +62,14 @@ docker stats
 
 ```
 CONTAINER ID        NAME                                CPU %               MEM USAGE / LIMIT     MEM %               NET I/O             BLOCK I/O           PIDS
-d507358bab40        the-three-nuts_quarcus-nut_1        0.29%               89.53MiB / 7.677GiB   1.14%               5.9kB / 0B          0B / 0B             25
-246e0ca525ba        the-three-nuts_spring-boot-nut_1    0.24%               177.4MiB / 7.677GiB   2.26%               5.81kB / 0B         0B / 0B             31
-aed30d7399df        the-three-nuts_open-liberty-nut_1   0.99%               306MiB / 7.677GiB     3.89%               5.81kB / 0B         0B / 606kB          45
+765cbfea5230        the-three-nuts_quarcus-nut_1        0.32%               81.23MiB / 7.677GiB   1.03%               5.31kB / 0B         0B / 0B             25
+b14e4ce55ee5        the-three-nuts_spring-boot-nut_1    0.32%               175.2MiB / 7.677GiB   2.23%               5.31kB / 0B         0B / 0B             31
+c3d537f2c412        the-three-nuts_open-liberty-nut_1   1.53%               255MiB / 7.677GiB     3.24%               5.58kB / 0B         0B / 65.5kB         42
 ```
 
 
 ## results
 
-1. quarkus (203MB/89.53MiB)
-1. springboot (219MB/177.4MiB)
-1. open liberty (523MB/306MiB)
+1. quarkus
+1. springboot
+1. open liberty
