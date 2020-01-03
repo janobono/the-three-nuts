@@ -2,7 +2,7 @@
 
 Simple _Hello World_ applications written in three different java frameworks and packed into docker to compare.
 
-- [Open Libery](https://openliberty.io/)
+- [Open Liberty](https://openliberty.io/)
 - [Quarkus](https://quarkus.io/)
 - [Spring Boot](https://spring.io/projects/spring-boot)
 
