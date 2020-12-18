@@ -26,7 +26,7 @@
             <dependency>
                 <groupId>io.openliberty.features</groupId>
                 <artifactId>features-bom</artifactId>
-                <version>19.0.0.12</version>
+                <version>20.0.0.12</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -68,7 +68,7 @@
                     <assemblyArtifact>
                         <groupId>io.openliberty</groupId>
                         <artifactId>openliberty-runtime</artifactId>
-                        <version>19.0.0.12</version>
+                        <version>20.0.0.12</version>
                         <type>zip</type>
                     </assemblyArtifact>
                     <configFile>src/main/liberty/config/server.xml</configFile>
