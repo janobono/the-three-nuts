@@ -44,8 +44,8 @@ docker image ls
 
 ```
 REPOSITORY                  TAG                 IMAGE ID            CREATED             SIZE
-janobono/spring-boot-nut    latest              621dadce01fe        17 seconds ago      120MB
 janobono/quarkus-nut        latest              daa88b557232        28 seconds ago      104MB
+janobono/spring-boot-nut    latest              621dadce01fe        17 seconds ago      120MB
 janobono/open-liberty-nut   latest              4ce1bd5c6372        44 seconds ago      424MB
 openjdk                     8-jre-alpine        f7a292bbb70c        7 months ago        84.9MB
 ```
@@ -54,8 +54,8 @@ openjdk                     8-jre-alpine        f7a292bbb70c        7 months ago
 
 ```
 REPOSITORY                  TAG                 IMAGE ID            CREATED             SIZE
-janobono/spring-boot-nut    latest              2068bab4f5ff        25 seconds ago      119MB
 janobono/quarkus-nut        latest              019dcda3f794        42 seconds ago      107MB
+janobono/spring-boot-nut    latest              2068bab4f5ff        25 seconds ago      119MB
 janobono/open-liberty-nut   latest              715423cb0dd8        About a minute ago  478MB
 openjdk                     8-jre-alpine        f7a292bbb70c        19 months ago       84.9MB
 ```
@@ -79,9 +79,9 @@ c3d537f2c412        the-three-nuts_open-liberty-nut_1   1.53%     255MiB / 7.677
 
 ```
 CONTAINER ID        NAME                                CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O     PIDS
-0d221195533e        the-three-nuts_open-liberty-nut_1   1.34%     257.5MiB / 7.677GiB   3.28%     14.7kB / 31.8kB   0B / 1.13MB   41
 fe5e0280c777        the-three-nuts_quarcus-nut_1        0.18%     91.81MiB / 7.677GiB   1.17%     12kB / 731B       0B / 0B       26
 ed9a71462afc        the-three-nuts_spring-boot-nut_1    0.46%     171.1MiB / 7.677GiB   2.18%     12.2kB / 1.08kB   0B / 0B       31
+0d221195533e        the-three-nuts_open-liberty-nut_1   1.34%     257.5MiB / 7.677GiB   3.28%     14.7kB / 31.8kB   0B / 1.13MB   41
 ```
 
 ## results
